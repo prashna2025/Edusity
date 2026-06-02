@@ -31,6 +31,45 @@ const Testimonial = () => {
                             <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
                         </div>
                     </li>
+
+                    <li>
+                        <div className="slide">
+                            <div className="user-info">
+                                <img src={user_2} alt="" />
+                                <div>
+                                    <h3>John Doe</h3>
+                                    <span>Educity,USA</span>
+                                </div>
+                            </div>
+                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div className="slide">
+                            <div className="user-info">
+                                <img src={user_3} alt="" />
+                                <div>
+                                    <h3>Sarah Johnson</h3>
+                                    <span>Educity,USA</span>
+                                </div>
+                            </div>
+                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div className="slide">
+                            <div className="user-info">
+                                <img src={user_4} alt="" />
+                                <div>
+                                    <h3>Pratiksha Thapa</h3>
+                                    <span>Educity,USA</span>
+                                </div>
+                            </div>
+                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
