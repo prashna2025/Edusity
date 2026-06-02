@@ -1,7 +1,7 @@
-nav{
+nav {
     width: 100%;
     /* background: #333; */
-    color:#fff;
+    color: #fff;
     padding: 4px 0;
     display: flex;
     position: fixed;
@@ -12,13 +12,18 @@ nav{
     z-index: 10;
 }
 
-.logo{
-    width:180px;
+.logo {
+    width: 180px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin: 5px 20px;
     font-size: 16px;
     list-style: none;
+}
+
+.dark-nav {
+    background: #212EA0;
+    transition: 0.5s;
 }
