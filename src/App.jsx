@@ -7,6 +7,7 @@ import About from './Components/About/About.jsx'
 import Campus from './Components/Campus/Campus.jsx'
 import Testimonial from './Components/Testimonials/Testimonial.jsx'
 import './index.css'
+import Contact from './Components/Contact/Contact.jsx'
 
 
 
@@ -25,7 +26,8 @@ const App = () => {
         <Campus />
         <Title subTitle='Testimonials' title='Student Reviews' />
         <Testimonial />
-
+        <Title subTitle='Contact Us' title='Stay Connected' />
+        <Contact />
       </div>
     </div>
   )
