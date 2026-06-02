@@ -12,7 +12,7 @@ const Program = () => {
     <div className='programs'>
       <div className="program">
         <img src={program_1} alt="" />
-        <div className="captions">
+        <div className="caption">
           <img src={program_1_icon} alt="" />
           <p>Graduation Degree </p>
         </div>
@@ -20,7 +20,7 @@ const Program = () => {
       </div>
        <div className="program">
         <img src={program_2} alt="" />
-        <div className="captions">
+        <div className="caption">
           <img src={program_2_icon} alt="" />
           <p>Master's Degree </p>
         </div>
@@ -28,7 +28,7 @@ const Program = () => {
 
        <div className="program">
         <img src={program_3} alt="" />
-        <div className="captions">
+        <div className="caption">
           <img src={program_3_icon} alt="" />
           <p>Post Graduation </p>
         </div>
