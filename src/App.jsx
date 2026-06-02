@@ -5,7 +5,8 @@ import Program from './Components/Programs/Programs.jsx'
 import Title from './Components/Title/Title.jsx'
 import About from './Components/About/About.jsx'
 import Campus from './Components/Campus/Campus.jsx'
-
+import Testimonial from './Components/Testimonials/Testimonial.jsx'
+import './index.css'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
         <Title subTitle='Gallery' title='Campus Life' />
         <Campus />
         <Title subTitle='Testimonials' title='Student Reviews' />
+        <Testimonial />
 
       </div>
     </div>
@@ -30,3 +32,4 @@ const App = () => {
 }
 
 export default App
+
