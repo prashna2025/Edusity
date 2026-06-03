@@ -9,6 +9,7 @@ import Testimonial from './Components/Testimonials/Testimonial.jsx'
 import './index.css'
 import Contact from './Components/Contact/Contact.jsx'
 import Footer from './Components/Footer/Footer.jsx'
+import Videoplayer from './Components/VideoPlayer/Videoplayer.jsx'
 
 
 
@@ -31,6 +32,7 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
+      <Videoplayer/>
     </div>
   )
 }
