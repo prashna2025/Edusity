@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
-
 
 const Navbar = () => {
 
@@ -18,7 +16,9 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-      <img src={logo} alt="" className="logo" />
+      <div className="brand-wrap">
+        <span className="brand-name">Learninghub</span>
+      </div>
       <ul>
         <li>Home</li>
         <li>Program</li>

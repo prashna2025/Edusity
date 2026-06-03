@@ -23,3 +23,30 @@
     width: 35px;
     margin-left: 10px;
 }
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+
+
+
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+.contact form input, .contact form textarea{
+    width: 100%;
+    padding:  15px;
+    border: 0;
+    outline: 0;
+    background: #EBECFE;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: block;
+    resize: none;
+}

@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    /* background: #333; */
+    background: #212EA0;
     color: #fff;
     padding: 4px 0;
     display: flex;
@@ -10,6 +10,18 @@ nav {
     align-items: center;
     justify-content: space-between;
     z-index: 10;
+    transition: background 0.3s ease;
+}
+
+.brand-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-name {
+    font-size: 1.35rem;
+    font-weight: 700;
 }
 
 .logo {

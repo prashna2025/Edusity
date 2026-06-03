@@ -40,10 +40,10 @@ const Testimonial = () => {
                                 <img src={user_1} alt="" />
                                 <div>
                                     <h3>Saraswoti Koirala</h3>
-                                    <span>Educity,USA</span>
+                                    <span>LearningHub, Nepal</span>
                                 </div>
                             </div>
-                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                            <p> "LearningHub made learning simple and enjoyable. The lessons were well-structured, and the instructors explained concepts clearly. My confidence and grades improved significantly" </p>
                         </div>
                     </li>
 
@@ -52,11 +52,11 @@ const Testimonial = () => {
                             <div className="user-info">
                                 <img src={user_2} alt="" />
                                 <div>
-                                    <h3>John Doe</h3>
-                                    <span>Educity,USA</span>
+                                    <h3>Anish Pathak</h3>
+                                    <span>LearningHub, Nepal</span>
                                 </div>
                             </div>
-                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                            <p> "I really enjoyed studying through LearningHub. The practical examples and interactive sessions helped me understand difficult topics much faster and easier  than before ever." </p>
                         </div>
                     </li>
 
@@ -65,11 +65,11 @@ const Testimonial = () => {
                             <div className="user-info">
                                 <img src={user_3} alt="" />
                                 <div>
-                                    <h3>Sarah Johnson</h3>
-                                    <span>Educity,USA</span>
+                                    <h3>Sara Limbu</h3>
+                                    <span>LearningHub, Nepal</span>
                                 </div>
                             </div>
-                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                            <p> "Thanks alot to LearningHub, I was able to strengthen my skills , knowledge and prepare effectively for my exams. The support shown  from tutors was always helpful and encouraging." </p>
                         </div>
                     </li>
 
@@ -78,11 +78,11 @@ const Testimonial = () => {
                             <div className="user-info">
                                 <img src={user_4} alt="" />
                                 <div>
-                                    <h3>Pratiksha Thapa</h3>
-                                    <span>Educity,USA</span>
+                                    <h3>Pratik Thapa</h3>
+                                    <span>LearningHub,Sunsari</span>
                                 </div>
                             </div>
-                            <p> "This is the best learning platform I have ever used. The courses are well-structured and the instructors are knowledgeable." </p>
+                            <p> "LearningHub provided a great learning experience with quality resources and easy-to-follow lessons. I would highly recommend it to any student looking to improve their knowledge." </p>
                         </div>
                     </li>
                 </ul>
