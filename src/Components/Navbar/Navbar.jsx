@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
+import menu_icon from '../.../assets/menu-icon.png'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -15,6 +16,8 @@ const Navbar = () => {
 
   }, []);
 
+  const toggleMenu=
+
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <div className="brand-wrap">
@@ -28,6 +31,7 @@ const Navbar = () => {
         <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500} className="btn">Contact us</Link></li>
       </ul>
+      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
   )
 }
