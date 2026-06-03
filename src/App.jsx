@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Hero from './Components/Hero/Hero.jsx'
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Program from './Components/Programs/Programs.jsx'
@@ -14,12 +14,7 @@ import Videoplayer from './Components/VideoPlayer/Videoplayer.jsx'
 
 
 const App = () => {
-
-  const [playState, setPlayState] = useState(false);
-
-
-
-
+  const [playState, setPlayState] = useState(false)
 
   return (
 
@@ -39,7 +34,7 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-      <Videoplayer playState={playState} setPlayState={setPlayState}/>
+      <Videoplayer playState={playState} setPlayState={setPlayState} />
     </div>
   )
 }

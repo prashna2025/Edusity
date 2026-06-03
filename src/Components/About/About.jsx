@@ -1,18 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './About.css'
 import about_img from '../../assets/about.png'
 import play_icon from '../../assets/play-icon.png'
-import college_video from '../../assets/college-video.mp4'
 
 
-const About = ({setPlayState}) => {
-
+const About = () => {
     return (
         <div className='about'>
             <div className="about-left">
                 <img src={about_img} alt="About Us" className="about-img" />
-                <img src={play_icon} alt="Play Icon" className="play-icon" onClick={() => setPlayState(true)} />
-             
+                <img src={play_icon} alt="Play Icon" className="play-icon" />
+
             </div>
             <div className="about-right">
                 <h3>ABOUT LEARNINGHUB</h3>
