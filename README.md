@@ -21,7 +21,14 @@ A modern, responsive educational institution website built with React and Vite. 
 - **Routing/Scrolling**: react-scroll 1.9.3
 - **Linting**: ESLint with React-specific rules
 
+<<<<<<< HEAD
 ## Project Structure
+=======
+##live demo 
+https://brilliant-beignet-8faa36.netlify.app/
+
+## Expanding the ESLint configuration
+>>>>>>> 623afbd6c5cf7c41c42e8a06d4997ff5a8b38068
 
 ```
 src/
